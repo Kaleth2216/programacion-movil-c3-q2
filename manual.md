@@ -30,7 +30,7 @@ Este componente se utiliza en la vista de Inicio.vue para permitir a los usuario
 
 Vista de Inicio
 La vista Inicio.vue actúa como la página principal del proyecto de citas médicas. En esta vista se presenta un mensaje de bienvenida y el componente CitaAccionesCrud para gestionar citas.
-
+```vue
 <!-- Vista de Inicio -->
 <template>
   <ion-content>
@@ -52,10 +52,12 @@ export default {
 <style scoped>
 /* Estilos específicos para la vista */
 </style>
+```
 
 ## Componente de Formulario - CitaFormulario
 Este componente CitaFormulario permite al usuario ingresar los detalles de una nueva cita, incluyendo la selección de fecha, hora y otros datos relevantes.
 
+```html
 <!-- Componente CitaFormulario -->
 <template>
   <div>
@@ -86,6 +88,7 @@ export default {
 <style scoped>
 /* Estilos específicos para el componente */
 </style>
+```
 
 ## Evidencia
 ![Captura de pantalla de la evidencia](file:///C:/Users/KALETH/Downloads/md.png)
